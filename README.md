@@ -108,10 +108,20 @@ O desempenho de Prevayler, HANA, Oracle e MySQL pode variar dependendo do tipo d
 Aqui está uma tabela que resume o desempenho de Prevayler, HANA, Oracle e MySQL:
 
 **Banco de dados	Velocidade**
-- Prevayler	Mais rápido
+- Prevayler, 20 anos depois, continua mais rápido (vc prefere seus dados em um datacenter segura com redundancia de refrigeração e energia, ou em em 10 DeepCloud Intercontinental? 
 - HANA	Mais lento
 - Oracle	Mais lento
 - MySQL	Mais lento
+
+| Característica | DRAM              | Intel Optane                                   | SSD                           |
+|---------------|-------------------|----------------------------------------------|-------------------------------|
+| Velocidade    | Muito rápido      | Mais lento que o DRAM, mas muito mais rápido que o flash memory | Mais lento que ambos DRAM e Intel Optane |
+| Custo         | Caro              | Custa menos que o DRAM, mas mais que o flash memory | Acessível |
+| Volátil/Não Volátil | Volátil       | Não Volátil                                  | Não Volátil                   |
+| Latência      | Baixa             | Baixa                                        | Alta                          |
+| Confiabilidade| Alta              | Excelentes tempos de resposta de leitura em comparação com drives baseados em flash | Baixa |
+| Resistência   | Alta              | Alta                                         | Baixa                         |
+
 
 O que é o SAP HANA?
 O SAP HANA (High-performance ANalytic Appliance) é um banco de dados multimodelo que armazena dados na memória em vez de mantê-los em um disco. O design colunar do banco de dados in-memory permite executar funções analíticas avançadas e transações com alta velocidade em um só sistema. Por que isso é tão importante? Porque permite que as empresas processem grande volume de dados com latência quase zero, consultem dados de forma instantânea e se tornem realmente baseadas em dados. Por armazenar os dados em tabelas baseadas em colunas na memória principal e reunir o processamento analítico online (OLAP) e o processamento transacional online (OLTP), o SAP HANA é único e bem mais rápido do que os outros sistemas de gerenciamento de banco de dados (DBMS) do mercado atual.
@@ -232,7 +242,7 @@ Explore nosso localizador de clientes para conhecer todos os casos de sucesso do
 - Salvar vidas na pandemia
 - O Ministério da Saúde do Marrocos tomou decisões rápidas e baseadas em fatos com um sistema de monitoramento de todo o país baseado no SAP HANA.
 
- ["Leia o caso de sucesso "](https://api.reuse.software/badge/github.com/SAP/devops-docker-images)]https://www.sap.com/brazil/about/customer-stories.html?sort=latest_desc&tag=software-product:technology-platform/sap-hana-cloud/sap-hana-cloud#customer-stories-finder)
+ ["Leia o caso de sucesso "](https://api.reuse.software/badge/github.com/SAP/devops-docker-images)])
 
 </p>
 
