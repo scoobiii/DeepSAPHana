@@ -9,7 +9,7 @@
     
 </p>
 
-<h1 align="center"> DeepSAPHana Plimm </h1>
+<h1 align="center"> Deep SAP Hana Plimm </h1>
 
 <p>Bem-vindo ao projeto Plimm Open Source! Na Plimm, somos visionários comprometidos em transformar a economia circular por meio de abordagens inovadoras no ponto de compra. Nossa missão é criar um ecossistema onde a economia circular se torne tangível no momento da compra. Através da geração de "criptobackplimm", retornamos valor aos clientes, oferecendo um desconto de 20% quando produtos não recicláveis precisam ser substituídos, incentivando um ciclo de vida consciente e sustentável.
 
